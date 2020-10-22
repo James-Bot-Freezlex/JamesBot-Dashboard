@@ -1,31 +1,11 @@
 <template>
   <div id="app">
-    <headerPage/>
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
-    
     <router-view/>
-    <footerPage/>
   </div>
 </template>
 
 <script>
-import headerPage from '@/components/header.vue'
-import footerPage from '@/components/footer.vue'
-
 export default {
-  methods:{
-    login: function(){
-      console.log("Test");
-      window.location = "http://localhost:4300/api/auth/discord";
-    }
-  },
-  components: {
-    headerPage,
-    footerPage,
-  }
   
 }
 </script>
