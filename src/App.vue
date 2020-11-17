@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  
+
 }
 </script>
 
@@ -22,6 +22,7 @@ export default {
 }
 
 body{
+  background-color: #2C2F33;
   margin: 0px;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */

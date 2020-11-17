@@ -1,13 +1,7 @@
 <template>
 <!-- https://www.flaticon.com/packs/web-development-14 -->
   <div class="presentation">
-    <div class="content part1">
-      <img id="c-dev" src="../assets/seo.svg">
-      <div class="content-text">
-        <h3>Continuous development</h3>
-        <p></p>
-      </div>
-    </div>
+      <p>WORK IN PROGRESS ...</p>
   </div>
 </template>
 
@@ -20,20 +14,8 @@ name: "BotPresentation"
 <style scoped>
 
 .presentation{
-  color: black;
-}
-
-#c-dev{
-  height: 200px;
-  width: auto;
-}
-
-.content{
-  display: flex;
-  flex-flow: row;
-}
-
-.content-text{
-
+  font-size: 50px;
+  color: #ffffff;
+  font-family: BebasBold,serif;
 }
 </style>

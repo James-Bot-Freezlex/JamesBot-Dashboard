@@ -8,6 +8,14 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  { path: '/support',
+  beforeEnter(){
+    window.location = "https://discord.com/invite/MKa35PQ";
+  }},
+  { path: '/invite',
+  beforeEnter(){
+    window.location = "https://discord.com/oauth2/authorize?client_id=425377070525317120&permissions=306048080&scope=bot";
+  }},
   { path: '/:pathMatch(.*)*', component: PageNotFound }
   /*,
   {

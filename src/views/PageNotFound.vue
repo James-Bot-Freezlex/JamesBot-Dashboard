@@ -1,6 +1,6 @@
 <template>
   <div id="not-found">
-    <h1>Heuuuu ... Il fait sombre ici, on peut revenir en arrière s'il te plait ? 😨</h1>
+    <img src="https://pvsq.org/wp-content/uploads/2019/08/finalPlan-de-travail-69-1024x745.png"/>
   </div>
 
 </template>
@@ -11,3 +11,8 @@ export default {
   name: 'PageNotFound',
 }
 </script>
+
+<style>
+
+
+</style>
