@@ -30,11 +30,12 @@ const routes = [
     path: '/news',
     name: 'NotFound',
   component: ()=> import('../views/PageNotFound.vue') }*/
-]
+
+];
 
 const router = createRouter({
   history: createWebHistory(),
   routes
-})
+});
 
 export default router

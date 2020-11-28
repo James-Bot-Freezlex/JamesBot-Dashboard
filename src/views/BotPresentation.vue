@@ -1,13 +1,21 @@
 <template>
 <!-- https://www.flaticon.com/packs/web-development-14 -->
   <div class="presentation">
-      <p>WORK IN PROGRESS ...</p>
+        <CommandsAvalaible>
+
+        </CommandsAvalaible>
   </div>
 </template>
 
 <script>
+    import CommandsAvalaible from "../components/AvailableCommands";
+
 export default {
-name: "BotPresentation"
+name: "BotPresentation",
+    components: {
+        CommandsAvalaible: CommandsAvalaible
+    }
+
 }
 </script>
 
